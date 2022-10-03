@@ -1,7 +1,4 @@
 <?php 
-//jualanproduk
-//jual komik
-//game
 
 class produk {
     public $judul ,

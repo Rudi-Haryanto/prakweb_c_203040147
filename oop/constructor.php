@@ -1,7 +1,4 @@
 <?php 
-//jualanproduk
-//jual komik
-//game
 
 class produk {
     public $judul ,
@@ -24,14 +21,6 @@ class produk {
 }
 
 
-// $produk1 = new produk();
-// $produk1->judul = "naruto";
-// var_dump($produk1);
-
-// $produk2 = new produk();
-// $produk2->judul ="uncharted";
-// $produk2->tambahProperty = "hahahah";
-// var_dump($produk2);
 
 $produk3 = new produk("naruto","masashi kishimoto","shonen jump",30000);
 $produk4 = new produk("uncharted","neil druckman","sony computer",250000);
