@@ -50,13 +50,13 @@ if (isset($_POST['ubah'])) {
             </li>
             <li>
                 <label>
-                    Penerbit :
+                    Pengarang :
                     <input type="text" name="pengarang" required value="<?= $book['penerbit']; ?>">
                 </label>
             </li>
             <li>
                 <label>
-                    Tipe :
+                    Penerbit :
                     <input type="text" name="penerbit" required value="<?= $book['tipe']; ?>">
                 </label>
             </li>

@@ -24,8 +24,9 @@ $book = query("SELECT * FROM buku WHERE id = $id");
     <ul>
         <li><img src="img/<?= $book['img']; ?>" width="250"></li>
         <li>NRP : <?= $book['judul']; ?></li>
-        <li>Nama : <?= $book['penerbit']; ?></li>
-        <li>Email : <?= $book['tipe']; ?></li>
+        <li>Nama : <?= $book['pengarang']; ?></li>
+        <li>Email : <?= $book['penerbit']; ?></li>
+        <li>Jurusan : <?= $book['terbit']; ?></li>
         <li><a href="ubah.php?id=<?= $book['id']; ?>">ubah</a> | <a href="hapus.php?id=<?= $book['id']; ?>" onclick="return confirm('apakah anda yakin?');">hapus</a></li>
         <li><a href="index.php">Kembali ke daftar buku</a></li>
     </ul>
