@@ -1,4 +1,7 @@
 <?php 
+//jualanproduk
+//jual komik
+//game
 
 class produk {
     public $judul ,
@@ -19,6 +22,15 @@ class produk {
         return "$this->penulis, $this->penerbit," ;
     }
 }
+
+//$produk1 = new produk();
+//$produk1->judul ="naruto";
+//var_dump($produk1);
+
+//$produk2 = new produk();
+//$produk2->judul ="uncharted";
+//$produk2->tambahProperty ="wkwkwk";
+//var_dump($produk2);
 
 
 
